@@ -12,13 +12,15 @@
 
 ## 2. Luồng xây dựng kiến trúc hệ thống từ nhỏ tới lớn
 
-```md
-Khi gõ facebook.com thì chuyện gì sẽ xảy ra?
-```
+### 2a. Khi gõ facebook.com thì chuyện gì sẽ xảy ra?
 
 <img src="https://images.viblo.asia/full/58ec3b4a-3caf-40ee-a589-173b395a1c6e.png" alt="vue">
 
-<!-- **DNS (Domain Name System)** sẽ dịch domain tintuc.vn -> địa chỉ IP(85.100.100.120) và trình duyệt sẽ tìm đến cái server có địa chỉ IP đó và trả về trang web cho chúng ta.
+```md
+DNS (Domain Name System)** sẽ dịch domain tintuc.vn -> địa chỉ IP(85.100.100.120) và trình duyệt sẽ tìm đến cái server có địa chỉ IP đó và trả về trang web cho chúng ta.
+```
+
+<!-- **
 
 **A. Đối với hệ thống nhỏ**
 Ví dụ: Tin tức, ứng dụng đồ án,các dự án chỉ truyền tải nội dung....
