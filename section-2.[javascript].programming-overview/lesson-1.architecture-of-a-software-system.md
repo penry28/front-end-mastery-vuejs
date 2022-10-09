@@ -27,3 +27,25 @@ Ví dụ: Tin tức, ứng dụng đồ án,các dự án chỉ truyền tải n
 tức là server chúng ta sẽ chứa và đảm nhiệm cũng như xử lý hết các công việc từ trình duyệt yêu cầu.
 ```
 <img src="https://images.viblo.asia/a0b3ccbe-a123-42d4-bf68-7141c11e523f.png" alt="vue">
+
+### B. Đối với hệ thống trung bình
+```md
+Ví dụ: dự án công ty, web bán hàng,.....
+
+- Server sẽ được tách ra làm 2
+    - WebServer: Đảm nhiệm xử lý yêu cầu bên server tức là nó sẽ sử dụng một ngôn ngữ (PHP, Java,...) tương thích với nó thường sẽ có 1 framework (Laravel,...) để xử lý nghiệp vụ và logic.
+    - Database Server: Dùng để chứa dữ liệu
+
+- Tại sao lại cần phải chia ra làm 2.
+    - Toàn vẹn dữ liệu
+    - Giảm tải công việc cho máy chủ
+
+- vd (Toàn vẹn dữ liệu):
+    - Database là một nơi rất quan trọng dùng để lưu trữ dữ liệu của khách hàng, vd trong trường hợp ta đặt chung webserver
+    và database ở chung thì nếu hacker tấn công vào được webserver hoặc webserver dín virut
+    và dẫn đến database bị xóa hết dữ liệu thì đó là một việc rất nguy hiểm.
+- vd (Giảm tải công việc cho máy chủ)
+    - Giống như việc khi một người làm 2 việc cùng lúc thì độ hiệu quả sẽ không cao và chất lượng công việc cũng không tốt
+    nhưng nếu ta chia ra mỗi người một việc, ai giỏi việc nào nhất thì chỉ cần làm duy nhất việc đó thì hiệu quả mang lại sẽ rất cao
+    nhưng bù lại thì chi phí cần chi trả sẽ cao hơn do chúng ta phải cần tới 2 người thay vì 1 người làm 2 việc.
+```
