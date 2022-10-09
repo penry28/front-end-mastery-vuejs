@@ -14,29 +14,16 @@
 
 ### A. Khi gõ facebook.com thì chuyện gì sẽ xảy ra?
 ```md
-DNS (Domain Name System)sẽ dịch domain facebook.com -> địa chỉ IP(157.240.7.35)
+DNS (Domain Name System) sẽ dịch domain facebook.com -> địa chỉ IP(157.240.7.35)
 và trình duyệt sẽ tìm đến cái server có địa chỉ IP đó và trả về trang web cho chúng ta.
 ```
-
 <img src="https://images.viblo.asia/full/58ec3b4a-3caf-40ee-a589-173b395a1c6e.png" alt="vue">
 
 ### B. Đối với hệ thống nhỏ
-
+```md
 Ví dụ: Tin tức, ứng dụng đồ án,các dự án chỉ truyền tải nội dung....
 
-<!-- **
-
-**A. Đối với hệ thống nhỏ**
-Ví dụ: Tin tức, ứng dụng đồ án,các dự án chỉ truyền tải nội dung....
-
+- Với hệ thống nhỏ thì tất cả sẽ làm trong 1 máy chủ (webserver, database server)
+tức là server chúng ta sẽ chứa và đảm nhiệm cũng như xử lý hết các công việc từ trình duyệt yêu cầu.
+```
 <img src="https://images.viblo.asia/a0b3ccbe-a123-42d4-bf68-7141c11e523f.png" alt="vue">
-
-- Với hệ thống nhỏ thì tất cả sẽ làm trong 1 máy chủ (webserver, database server) tức là server chúng ta sẽ chứa và đảm nhiệm cũng như xử lý hết các công việc từ trình duyệt yêu cầu.
-
-**A. Đối với hệ thống trung bình**
-Ví dụ: dự án công ty, web bán hàng,.....
-
-<img src="https://images.viblo.asia/37a16ad6-54f9-48d5-a391-40f1d783ba92.png" alt="vue">
-
-- Server sẽ được tách ra làm 2
-    - -->
