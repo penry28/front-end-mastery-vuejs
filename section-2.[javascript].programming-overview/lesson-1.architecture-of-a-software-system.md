@@ -12,7 +12,7 @@
 
 ## 2. Luồng xây dựng kiến trúc hệ thống từ nhỏ tới lớn
 
-### 2a. Khi gõ facebook.com thì chuyện gì sẽ xảy ra?
+### A. Khi gõ facebook.com thì chuyện gì sẽ xảy ra?
 
 <img src="https://images.viblo.asia/full/58ec3b4a-3caf-40ee-a589-173b395a1c6e.png" alt="vue">
 
