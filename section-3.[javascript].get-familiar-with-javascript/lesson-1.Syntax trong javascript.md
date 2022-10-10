@@ -40,11 +40,10 @@ domain.com
     - index.html
 ```
 
-Để có thể viết javascript trong một file khác thì chúng ta cần link đường dẫn của file đó vào
+Để có thể viết javascript trong một file khác chúng ta cần link đường dẫn của file đó vào
 
 ```bash
 # Trong file index.html
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
