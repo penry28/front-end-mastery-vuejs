@@ -3,7 +3,8 @@
 ## 1. Thuật ngữ lập trình là gì?
 
 ```md
-Thuật ngữ lập trình là tập hợp những từ ngữ biểu thị về khái niệm khoa học, công nghệ. Thông thường, chúng sẽ được sử dụng trong các lĩnh vực về lập trình và biểu thị chính xác về khái niệm chuyên môn.
+Thuật ngữ lập trình là tập hợp những từ ngữ biểu thị về khái niệm khoa học, công nghệ.
+Thông thường, chúng sẽ được sử dụng trong các lĩnh vực về lập trình và biểu thị chính xác về khái niệm chuyên môn.
 ```
 
 ## 2. Những thuật ngữ trong ngành lập trình
