@@ -3,9 +3,9 @@
 ## 1. var, let, const là gì?
 Đều được dùng để khai báo tên biến, tên hàm.
 
-Trước biên bản [**ES6**](https://viblo.asia/p/ecmascript-es6-la-gi-overview-es6-gAm5y9RA5db) là [**ES5**](https://viblo.asia/p/hieu-ve-es5-es2015-va-typescript-m68Z0mXjlkG), Javascript chỉ dùng được **var**
+Trước biên bản [**ES6**](https://viblo.asia/p/ecmascript-es6-la-gi-overview-es6-gAm5y9RA5db) là [**ES5**](https://viblo.asia/p/hieu-ve-es5-es2015-va-typescript-m68Z0mXjlkG), Javascript chỉ dùng được `var`
 
-Từ phiên bản [**ES6**](https://viblo.asia/p/ecmascript-es6-la-gi-overview-es6-gAm5y9RA5db) javascript cung cấp thêm 2 cách khai báo biến là **let** và **const**
+Từ phiên bản [**ES6**](https://viblo.asia/p/ecmascript-es6-la-gi-overview-es6-gAm5y9RA5db) javascript cung cấp thêm 2 cách khai báo biến là `let` và `const`
 
 ## 2. Phân Biệt
 
@@ -16,7 +16,7 @@ Trừ trường hợp được khai báo bên trong 1 function (khi đó biến 
 
 Mặc định biến var sẽ có scope là globally scoped.
 
-***Đặc biệt, biến var còn có thêm tính chất hoisting: nghĩa là dù khai báo ở đâu thì biến đều sẽ được đem lên đầu scope trước khi code được thực hiện.***
+`Đặc biệt, biến var còn có thêm tính chất hoisting: nghĩa là dù khai báo ở đâu thì biến đều sẽ được đem lên đầu scope trước khi code được thực hiện.`
 
 Lấy ví dụ về hoisting:
 
@@ -45,8 +45,8 @@ console.log(greeting); //"say Hello instead"
 Vì thỏa điều kiện if nên greeting khi này sẽ có giá trị là "say Hello instead" và sẽ vẫn giữ nguyên giá trị này sau khi thoát ra khỏi block if. Điều này sẽ không có gây vấn đề gì nhưng nếu trong trường hợp code của chúng ta lên đến hàng trăm, hàng nghìn dòng code, hoặc chúng ta cũng không biết được giá trị của biến liệu có bị thay đổi ở đoạn code nào sẽ dẫn đến việc debug là vô cùng khó khăn. Để giải quyết vấn đề trên thì ES6 cung cấp cho chúng ta thêm 2 cách khác để khai báo biến bao gồm let và const.
 
 ### 2.2. Biến let
-Một trong những nguyên nhân khiến **let** có thể thay thế **var** để xử lý vấn đề nêu trên là vì
-biến **let** được khai báo sẽ có scope là **block scoped** chứ không phải **globally** hay **locally scoped**.
+Một trong những nguyên nhân khiến `let` có thể thay thế `var` để xử lý vấn đề nêu trên là vì
+biến `let` được khai báo sẽ có scope là **block scoped** chứ không phải **globally** hay **locally scoped**.
 
 ```bash
 let greeting = "say Hi";
