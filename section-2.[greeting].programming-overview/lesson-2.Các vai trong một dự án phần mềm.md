@@ -49,7 +49,7 @@
 - Bảo trì
 ```
 
-### A. Phân tích và lên kế hoạch
+### 2.1. Phân tích và lên kế hoạch
 
 ```md
 Ở bước này, chúng ta sẽ tìm hiểu và phân mục đích, giới hạn, thời gian thực hiện cần thiết, tài chính, nhân sự và rủi ro cho dự án. Về cơ bản, chúng ta phải xác định được cần làm gì, cần những gì, làm thế nào, khi nào hoàn thành. Do đó, ta cần các vai trò tham gia vào bước này gồm:
@@ -59,7 +59,7 @@
 - Technical Architect (TA) - Lựa chọn công cụ, giải pháp kỹ thuật trước khi phát triển sản phẩm.
 ```
 
-### B. Phân tích yêu cầu
+### 2.2. Phân tích yêu cầu
 
 ```md
 Chúng ta sẽ tìm hiểu và phân tích các ràng buộc trong quy trình nghiệp vụ, đối tượng của dự án, tầm nhìn dự án, các chức năng cần có. Các vai trò tham gia gồm:
@@ -68,9 +68,9 @@ Chúng ta sẽ tìm hiểu và phân tích các ràng buộc trong quy trình ng
 - Project Manager (PM) - Làm việc chung với BA và nhóm phát triển để thống nhất yêu cầu từ khách hàng và chốt danh sách các chức năng cần làm.
 ```
 
-### C. Thiết kế
+### 2.3. Thiết kế
 
-#### C1. UI/UX
+#### 2.3.1. UI/UX
 ```md
 Sau khi chúng ta chốt được danh sách chức năng với khách hàng, bước này sẽ lên khung sườn cho dự án gồm khung về giao diện và kiến trúc hệ thống.
 
@@ -81,7 +81,7 @@ Về phần giao diện người dùng, chúng ta cần giao diện hoàn chỉn
 ```
 <img src="https://vhnam.github.io/tutorials/cac-vai-tro-trong-phat-trien-phan-mem/img/human-interface-guidelines.png" alt="vue">
 
-#### C1. Technical
+#### 2.3.2. Technical
 ```md
 Về phần kỹ thuật, chúng ta quyết định kiến trúc và cấu hình môi trường phát triển, cách triển khai, công nghệ sử dụng là gì, có cần sử dụng các bên thứ ba hay không? Ngoài ra, ta sẽ phân tích cần truy xuất và lưu trữ đữ liệu như thế nào.
 - Technical Architect (TA) - Thiết kế kiến trúc hệ thống.
@@ -89,7 +89,7 @@ Về phần kỹ thuật, chúng ta quyết định kiến trúc và cấu hình
 ```
 <img src="https://vhnam.github.io/tutorials/cac-vai-tro-trong-phat-trien-phan-mem/img/backend-spotify-architect.png" alt="vue">
 
-### D. Phát triển sản phẩm
+### 2.4. Phát triển sản phẩm
 
 ```md
 Sau khi đã có danh sách chức năng và thiết kế, chúng ta sẽ xây dựng sản phẩm theo tiến độ đã đề ra. Tham gia gồm:
@@ -100,7 +100,7 @@ Nếu dự án quá phức tạp, ta cần thêm một số chuyên gia trong l�
 ```
 <img src="https://vhnam.github.io/tutorials/cac-vai-tro-trong-phat-trien-phan-mem/img/gantt-chart.jpg" alt="vue">
 
-### E. Kiểm thử
+### 2.5. Kiểm thử
 
 ```md
 Giai đoạn này sẽ kiểm tra tính chính xác của từng chức năng, có hoạt động đúng với đặc tả và sửa lỗi. Tham gia gồm:
@@ -110,7 +110,7 @@ Giai đoạn này sẽ kiểm tra tính chính xác của từng chức năng, c
 ```
 <img src="https://vhnam.github.io/tutorials/cac-vai-tro-trong-phat-trien-phan-mem/img/developer-vs-tester.png" alt="vue">
 
-### F. Triển khai
+### 2.6. Triển khai
 
 ```md
 Sau khi sửa lỗi xong, chúng ta sẽ đóng gói phần mềm và triển khai lên server của khách hàng
@@ -121,7 +121,7 @@ hoặc công bố trên App Store/Google Play. Tham gia gồm:
 ```
 <img src="https://vhnam.github.io/tutorials/cac-vai-tro-trong-phat-trien-phan-mem/img/deployment.jpg" alt="vue">
 
-### G. Bảo trì
+### 2.7. Bảo trì
 
 ```md
 Trong quá trình đưa vào sử dụng, khách hàng sẽ yêu cầu sửa một số lỗi, thêm chức năng hoặc sửa một chức năng hiện tại thì chúng ta sẽ thực hiện bước này. Tham gia gồm nhóm phát triển (Dev, Tester, PM).

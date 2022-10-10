@@ -9,7 +9,7 @@ Thông thường, chúng sẽ được sử dụng trong các lĩnh vực về l
 
 ## 2. Những thuật ngữ trong ngành lập trình
 
-### A. Thuật ngữ chỉ chung
+### 2.1. Thuật ngữ chỉ chung
 - **Software Engineering:** Kỹ thuật phần mềm.
 - **SHDSE (Higher Diploma in Software Engineering):** Chứng Chỉ kỹ sư phần mềm Quốc tế.
 - **SStructured Programming:** Lập trình cấu trúc.
@@ -24,7 +24,7 @@ Thông thường, chúng sẽ được sử dụng trong các lĩnh vực về l
 - **SProject Manager (PM):** Quản lý dự án.
 - **SCoder:** Người viết Code.
 
-### A. Thuật ngữ về mã nguồn
+### 2.2. Thuật ngữ về mã nguồn
 - **Source code:** Mã nguồn.
 - **Open source:** Mã Nguồn mở.
 - **Code:** Mã.
@@ -34,7 +34,7 @@ Thông thường, chúng sẽ được sử dụng trong các lĩnh vực về l
 - **Header file:** File chứa các nguyên mẫu hàm.
 - **Implementation File:** File chứa nội dung thực thi, mã lệnh của các hàm.
 
-### C. Thuật ngữ về công cụ, chương trình dịch
+### 2.3. Thuật ngữ về công cụ, chương trình dịch
 - **Run:** Chạy chương trình.
 - **Debug:** Gỡ rối, sửa lỗi.
 - **Error:** Lỗi.
@@ -47,7 +47,7 @@ Thông thường, chúng sẽ được sử dụng trong các lĩnh vực về l
 - **Line:** dòng.
 - **Editor:** Trình soạn thảo.
 
-### D. Thuật ngữ khi viết code
+### 2.4. Thuật ngữ khi viết code
 - **Operator:** Toán tử.
 - **Function:** Hàm.
 - **Character:** Ký tự.

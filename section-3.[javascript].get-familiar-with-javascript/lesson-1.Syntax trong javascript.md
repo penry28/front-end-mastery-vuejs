@@ -9,7 +9,7 @@ Có thể nói rằng, Javascript là ngôn ngữ lập trình có phổ biến 
 
 ## 2. Những cách viết code trong javascript?
 
-### A. Viết trực tiếp trong file HTML
+### 2.1. Viết trực tiếp trong file HTML
 ```bash
 <!DOCTYPE html>
 <html lang="en">
@@ -28,7 +28,7 @@ Có thể nói rằng, Javascript là ngôn ngữ lập trình có phổ biến 
 </html>
 ```
 
-### B. Tạo ra một file riêng và viết Javascript trong đó
+### 2.2. Tạo ra một file riêng và viết Javascript trong đó
 Ta có một cấu trúc thư mục như sau:
 
 ```bash
