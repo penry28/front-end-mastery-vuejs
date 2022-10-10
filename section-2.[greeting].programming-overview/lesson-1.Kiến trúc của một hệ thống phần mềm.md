@@ -1,6 +1,5 @@
 # KIẾN TRÚC CỦA MỘT HỆ THỐNG PHẦN MỀM
 
-
 ## 1. Tổng quan về kiến trúc hệ thống.
 
 ```md
