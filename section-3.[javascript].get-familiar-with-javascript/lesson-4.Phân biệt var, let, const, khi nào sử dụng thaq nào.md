@@ -16,7 +16,7 @@ Trừ trường hợp được khai báo bên trong 1 function (khi đó biến 
 
 Mặc định biến var sẽ có scope là globally scoped.
 
-`Đặc biệt, biến var còn có thêm tính chất hoisting: nghĩa là dù khai báo ở đâu thì biến đều sẽ được đem lên đầu scope trước khi code được thực hiện.`
+***Đặc biệt, biến var còn có thêm tính chất hoisting: nghĩa là dù khai báo ở đâu thì biến đều sẽ được đem lên đầu scope trước khi code được thực hiện.***
 
 Lấy ví dụ về hoisting:
 
