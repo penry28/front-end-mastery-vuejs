@@ -38,3 +38,5 @@ Các kiểu cấu trúc dữ liệu chứa một số kiểu cấu trúc dữ li
 | #Data Type | #Description                                             |
 | :--------: | :------------------------------------------------------- |
 | Object     | Một đối tượng chứa nhiều giá trị về thuộc tính và phương thức. <br />**Ví dụ:** <br /><code>var person = { firstName: "James", lastName: "Bond", age: 15 };</code>|
+| Date       | Đối tượng Date đại diện cho ngày và giờ bao gồm ngày, tháng, năm, giờ, phút, giây và mili giây. <br />**Ví dụ:** <br /><code>var today = new Date("25 July 2021");</code>|
+| Array      | An array stores multiple values using special syntax. <br />**Ví dụ:** <br /><code>var nums = [1, 2, 3, 4];</code>|
