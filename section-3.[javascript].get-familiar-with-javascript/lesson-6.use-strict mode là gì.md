@@ -44,8 +44,8 @@ function myFunction() {
 
 ## Tại sao lại dùng strict mode
 - Làm cho code của chúng ta rõ ràng hơn.
-- Giúp viết code javascript "an toàn" một cách dễ dàng hơn. (Bởi vì khi mà viết sai không an toàn thì chương trình sẽ không được thực thi và báo lỗi).
-- Strict mode nó sẽ thay đổi những "bad syntax" xấu trước đó thành "Real Error".
+- Giúp viết code javascript "an toàn" một cách dễ dàng hơn. (Bởi vì khi mà viết sai hoặc viết không an toàn thì chương trình sẽ không được thực thi và báo lỗi).
+- Strict mode nó sẽ thay đổi những "bad syntax" xấu trước đó thành "Real error".
 
 ## Những cú pháp không được phép khi ở chế độ strict mode
 - không cho phép sử dụng biến nhưng chưa được khai báo.
@@ -60,7 +60,7 @@ x = 3.14; // Hiển thị lỗi.
 x = {p1:10, p2:20}; // Hiển thị lỗi
 ```
 
-- Không có phép xóa một biến (hoặc object)
+- Không cho phép xóa một biến (hoặc object)
 ```bash
 "use strict";
 let x = 3.14;
@@ -92,7 +92,7 @@ let x = 010; // Hiển thị lỗi.
 let x = "\010"; // Hiển thị lỗi.
 ```
 
-- Không được phép khi vào những thuộc tính chỉ được phép đọc.
+- Không được phép ghi vào những thuộc tính chỉ được phép đọc.
 ```bash
 "use strict";
 const obj = {};
