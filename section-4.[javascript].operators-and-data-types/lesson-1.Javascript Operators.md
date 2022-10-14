@@ -12,6 +12,7 @@ a + b = c;
 ```
 
 ## Arithmetic Operators (Toán tử số học)
-| Attempt | #1    | #2    |
-| :-----: | :---: | :---: |
-| Seconds | 301   | 283   |
+| #Operator | #Description                               |
+| :-------: | :----------------------------------------: |
+| +         | Toán tử cộng                               |
+
