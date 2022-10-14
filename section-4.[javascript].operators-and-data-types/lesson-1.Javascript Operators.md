@@ -22,7 +22,6 @@ a + b = c;
 | ++        | Toán tử tăng dần. Tăng giá trị toán hạng lên một.        |
 | --        | Toán tử giảm dần. Giảm giá trị một.                      |
 
-- Ex:
 ```bash
 var x = 5, y = 10;
 
@@ -37,8 +36,9 @@ z = y / x; //performs division and returns 2
 z = x % 2; //returns division remainder 1
 ```
 
-### 1.1. Toán tử `++` và `--` là toán tử một ngôi
-- Nó chỉ hoạt động với toán hạng bên trái hoặc bên phải
+### 1.1. Toán tử `++` và `--`
+- Là toán tử một ngôi.
+- Nó chỉ hoạt động với toán hạng bên trái hoặc bên phải.
 - `x++`: sẽ tăng giá trị của x lên một đơn vị khi chương trình thực hiện câu lệnh tiếp theo.
 - `x--`: sẽ giảm giá trị của x xuống một đơn vị khi chương trình thực hiện câu lệnh tiếp theo.
 - `++x`: sẽ trăng giá trị của x lên một đơn vị ngay khi chương trình thực thi câu lệnh đó.
