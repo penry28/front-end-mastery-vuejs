@@ -29,6 +29,6 @@ Sau đây là các kiểu dữ liệu nguyên thủy trong JavaScript:
 | Number     | Number là một giá trị số. <br />**Ví dụ:** 100, 4521983, v.v.|
 | BigInt     |BigInt is a numeric value in the arbitrary precision format. <br />**Ví dụ:** 453889879865131n, 200n, etc.|
 | Boolean    |Boolean là một kiểu dữ liệu logic chỉ có hai giá trị, đúng hoặc sai.|
-| Null       |Giá trị null biểu thị sự vắng mặt của giá trị. <br />**Ví dụ:** var str = null;|
-| Undefined  |undefined là giá trị mặc định của một biến chưa được gán bất kỳ giá trị nào.<br />**Ví dụ:** Trong khai báo biến, var str ;, không có giá trị nào được gán cho str. Vì vậy, loại str có thể được kiểm tra bằng cách sử dụng typeof (str) sẽ trả về undefined.|
+| Null       |Giá trị null biểu thị sự vắng mặt của giá trị. <br />**Ví dụ:** `var str = null;`|
+| Undefined  |undefined là giá trị mặc định của một biến chưa được gán bất kỳ giá trị nào.<br />**Ví dụ:** Trong khai báo biến, `var str ;`, không có giá trị nào được gán cho str. Vì vậy, loại `str` có thể được kiểm tra bằng cách sử dụng `typeof (str)` sẽ trả về `undefined`.|
 
