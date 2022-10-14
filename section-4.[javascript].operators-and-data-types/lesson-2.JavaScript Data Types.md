@@ -32,3 +32,13 @@ Sau đây là các kiểu dữ liệu nguyên thủy trong JavaScript:
 | Null       |Giá trị null biểu thị sự vắng mặt của giá trị. <br />**Ví dụ:** `var str = null;`|
 | Undefined  |undefined là giá trị mặc định của một biến chưa được gán bất kỳ giá trị nào.<br />**Ví dụ:** Trong khai báo biến, `var str ;`, không có giá trị nào được gán cho str. Vì vậy, loại `str` có thể được kiểm tra bằng cách sử dụng `typeof (str)` sẽ trả về `undefined`.|
 
+## 2. Structural Data Types
+Các kiểu cấu trúc dữ liệu chứa một số kiểu cấu trúc dữ liệu nguyên thủy.
+
+| #Data Type | #Description                                             |
+| :--------: | :------------------------------------------------------- |
+| Object     | Một đối tượng chứa nhiều giá trị về thuộc tính và phương thức. <br />**Ví dụ:** <br /> <code>var person = {
+                firstName: "James",
+                lastName: "Bond",
+                age: 15
+            };</code>
