@@ -113,7 +113,7 @@ Trong Javascript, Logical Operators được dùng để kết hợp vs hai ho�
 | #Operator | #Description                                                                                  |
 | :-------: | :-------------------------------------------------------------------------------------------- |
 | &&        | && được gọi là toán tử AND. Nó kiểm tra xem hai toán hạng có khác 0 hay không (0, false, undefined, null hoặc "" được coi là 0). Nó trả về 1 nếu chúng khác 0; nếu không, trả về 0.|
-| #||        |#|| được gọi là toán tử OR. Nó kiểm tra xem bất kỳ một trong hai toán hạng có khác 0 hay không (0, false, undefined, null hoặc "" được coi là zero). Nó trả về 1 nếu bất kỳ một trong số chúng khác 0; nếu không, trả về 0.|
+| \|\|        | \|\| được gọi là toán tử OR. Nó kiểm tra xem bất kỳ một trong hai toán hạng có khác 0 hay không (0, false, undefined, null hoặc "" được coi là zero). Nó trả về 1 nếu bất kỳ một trong số chúng khác 0; nếu không, trả về 0.|
 | !         |! được gọi là toán tử NOT. Nó đảo ngược kết quả boolean của toán hạng (hoặc điều kiện). `!false` trả về `true` và `!true` trả về `false`|
 
 ```bash
