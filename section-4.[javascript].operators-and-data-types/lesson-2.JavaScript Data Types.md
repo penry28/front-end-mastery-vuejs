@@ -25,9 +25,9 @@ Sau đây là các kiểu dữ liệu nguyên thủy trong JavaScript:
 
 | #Data Type | #Description                                             |
 | :--------: | :------------------------------------------------------- |
-| String     |Chuỗi là một nội dung văn bản được bao bọc bên trong ***''*** hoặc ***""*** hoặc ***``*** (dấu tích) <br /><br />**Example:** 'Hello World!', "This is a string", etc.|
-| Number     |
-| BigInt     |
-| Boolean    |
-| Null       |
-| Undefined  |
+| String     |Chuỗi là một nội dung văn bản được bao bọc bên trong ***''*** hoặc ***""*** hoặc ***``*** (dấu tích) <br /><br />**Ví dụ:** 'Hello World!', "This is a string", etc.|
+| Number     | Number là một giá trị số. <br /><br />**Ví dụ:** 100, 4521983, v.v.|
+| BigInt     ||
+| Boolean    ||
+| Null       ||
+| Undefined  ||
