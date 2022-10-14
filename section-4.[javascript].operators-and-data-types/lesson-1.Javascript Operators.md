@@ -55,7 +55,7 @@ x--; //post-decrement, x will be 7 here and 6 in the next line
 --x; //pre-decrement, x will be 5 here
 ```
 
-## Nối chuỗi (String Concatenation)
+## 2. Nối chuỗi (String Concatenation)
 Sử dụng toán tử `+` để nối chuỗi hoặc các ký tự lại với nhau.
 
 ```bash
@@ -72,7 +72,7 @@ b + true; //returns "Hello true"
 c - b; //returns NaN; - operator can only used with numbers
 ```
 
-## Toán tử so sánh (Comparison Operators)
+## 3. Toán tử so sánh (Comparison Operators)
 Javascript cung cấp những toán tử so sánh hai operands(toán hạng) và trả về giá trị `true` hoặc `false`.
 
 | #Operator | #Description                                                                                  |
@@ -107,7 +107,7 @@ a >= b; // returns false
 a <= b; // returns true
 ```
 
-## Toán tử Logic (Logical Operators)
+## 4. Toán tử Logic (Logical Operators)
 Trong Javascript, Logical Operators được dùng để kết hợp vs hai hoặc nhiều điều kiện lại với nhau.
 
 | #Operator | #Description                                                                                  |
@@ -130,7 +130,7 @@ var a = 5, b = 10;
 !(a > b); // returns true
 ```
 
-## Toán tử gán (Assignment Operators)
+## 5. Toán tử gán (Assignment Operators)
 JavaScript cung cấp các toán tử gán để gán giá trị cho các biến
 
 | #Operator | #Description                                                                                  |
@@ -157,3 +157,17 @@ x /= 5; //x would be 1
 x %= 2; //x would be 1
 ```
 
+## 6. Toán tử 3 ngôi (Ternary Operator)
+JavaScript cung cấp một toán tử đặc biệt được gọi là toán tử bậc ba:? chỉ định một giá trị cho một biến dựa trên một số điều kiện. Đây là dạng rút gọn của điều kiện if else.
+
+- Syntax:
+```bash
+<condition> ? <value1> : <value2>;
+```
+
+```bash
+var a = 10, b = 5;
+
+var c = a > b? a : b; // value of c would be 10
+var d = a > b? b : a; // value of d would be 5
+```
