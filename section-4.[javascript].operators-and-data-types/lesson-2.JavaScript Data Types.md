@@ -37,8 +37,4 @@ Các kiểu cấu trúc dữ liệu chứa một số kiểu cấu trúc dữ li
 
 | #Data Type | #Description                                             |
 | :--------: | :------------------------------------------------------- |
-| Object     | Một đối tượng chứa nhiều giá trị về thuộc tính và phương thức. <br />**Ví dụ:** <br /> <code>var person = {
-                firstName: "James",
-                lastName: "Bond",
-                age: 15
-            };</code>
+| Object     | Một đối tượng chứa nhiều giá trị về thuộc tính và phương thức. <br />**Ví dụ:** <br /><code>var person = { firstName: "James", lastName: "Bond", age: 15 };</code>|
