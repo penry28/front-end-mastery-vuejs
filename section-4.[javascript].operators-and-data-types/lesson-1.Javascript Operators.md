@@ -129,3 +129,31 @@ var a = 5, b = 10;
 
 !(a > b); // returns true
 ```
+
+## Toán tử gán (Assignment Operators)
+JavaScript cung cấp các toán tử gán để gán giá trị cho các biến
+
+| #Operator | #Description                                                                                  |
+| :-------: | :-------------------------------------------------------------------------------------------- |
+| =         | Gán giá trị toán hạng bên phải cho toán hạng bên trái. |
+| +=        | Tính tổng các giá trị toán hạng trái và phải và gán kết quả cho toán hạng bên trái. |
+| -=        | Trừ giá trị toán hạng bên phải khỏi giá trị toán hạng bên trái và gán kết quả cho toán hạng bên trái. |
+| /=        | Chia giá trị toán hạng bên trái cho giá trị toán hạng bên phải và gán kết quả cho toán hạng bên trái. |
+| %=        | Lấy số dư của phép chia toán hạng bên trái cho toán hạng bên phải và gán số dư kết quả cho toán hạng bên trái. |
+
+```bash
+var x = 5, y = 10, z = 15;
+
+x = y; //x would be 10
+
+x += 1; //x would be 6
+
+x -= 1; //x would be 4
+
+x *= 5; //x would be 25
+
+x /= 5; //x would be 1
+
+x %= 2; //x would be 1
+```
+
