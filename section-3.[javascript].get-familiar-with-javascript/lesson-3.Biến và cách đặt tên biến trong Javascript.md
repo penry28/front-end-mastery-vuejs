@@ -32,8 +32,7 @@ var Name = "Joe";
 var name = "John";
 ```
 
-Về quy tắc đặc tên các đinh danh, thì có nhiều trường phái khác nhau. Điển hình có 3 loại:
-- Dùng dấu gạch ngang: Ví dụ: first-name
+Về quy tắc đặc tên các đinh danh, thì có nhiều trường phái khác nhau. Điển hình có 2 loại:
 - Dùng dấu gạch dưới. Ví dụ: first_name
 - Và trường phái camel case, tức là viết chữ in hoa với mỗi từ đơn. Ví dụ: FirstName
 

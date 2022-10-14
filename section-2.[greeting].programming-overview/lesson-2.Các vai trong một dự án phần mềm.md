@@ -2,7 +2,7 @@
 
 ## 1. Các vị trí trong công ty phần mềm
 
-### Developer
+### Developer (Dev)
 ```md
 - Hầu hết các bạn học liên quan đến phần mềm đều xuất phát từ vị trí này. Dù các bạn có theo các hướng các nhau như Web, Mobile, Xử lý ảnh, Trí tuệ nhân tạo,... thì bạn cũng làm chung một việc là viết code.
 - Làm dev có một đặc quyền đó là được phép làm sai, Vì sai đã có tester báo lỗi, nhưng đừng sai nhiều quá, kẻo bị trừ lương.
@@ -15,14 +15,20 @@
 - Nếu không được học trên trường, có thể tự học trên Google bằng từ khoá "Software Testing".
 ```
 
-### Tester/Quality Control (QC)
+### Quality Assurance (QA)
 ```md
-- QA là người chịu trách nhiệm đảm bảo chất lượng sản phẩm thông qua việc đưa ra quy trình làm việc giữa các bên liên quan. Công việc chủ yếu là đề xuất, giám sát và cải thiện quy trình làm việc; đưa ra tài liệu hướng dẫn để đảm bảo chất lượng cho nhóm phát triển. Tuy nhiên, một số công ty lại cho QA kiêm luôn việc của QC.
+QA là người chịu trách nhiệm đảm bảo chất lượng sản phẩm thông qua việc đưa ra quy trình làm việc giữa các bên liên quan.
+Công việc chủ yếu là đề xuất, giám sát và cải thiện quy trình làm việc;
+đưa ra tài liệu hướng dẫn để đảm bảo chất lượng cho nhóm phát triển.
+Tuy nhiên, một số công ty lại cho QA kiêm luôn việc của QC.
 ```
 
 ### Business Analyst (BA)
 ```md
-- Vai trò như cầu nối giữa khách hàng và nhóm phát triển. Khi gặp khách hàng, BA sẽ lắng nghe mô tả dự án và biến nó thành yêu cầu, đề xuất giải pháp về mặt chức năng. Sau đó về truyền lại cho nhóm phát triển, phối hợp với PM để chốt danh sách chức năng.
+Vai trò như cầu nối giữa khách hàng và nhóm phát triển.
+Khi gặp khách hàng, BA sẽ lắng nghe mô tả dự án và biến nó thành yêu cầu,
+đề xuất giải pháp về mặt chức năng.
+Sau đó về truyền lại cho nhóm phát triển, phối hợp với PM để chốt danh sách chức năng.
 ```
 
 ### Project Manager (PM)

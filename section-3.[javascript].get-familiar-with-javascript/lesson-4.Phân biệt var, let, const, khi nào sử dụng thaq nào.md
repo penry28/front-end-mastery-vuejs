@@ -1,4 +1,4 @@
-# PHÂN BIỆT VAR, LET, CONST, KHI NÀO SỬ DỤNG THAQ NÀO
+# PHÂN BIỆT VAR, LET, CONST, KHI NÀO SỬ DỤNG THẰNG NÀO
 
 ## 1. var, let, const là gì?
 Đều được dùng để khai báo tên biến, tên hàm.
@@ -42,7 +42,7 @@ if (times > 3) {
 
 console.log(greeting); //"say Hello instead"
 ```
-Vì thỏa điều kiện if nên greeting khi này sẽ có giá trị là "say Hello instead" và sẽ vẫn giữ nguyên giá trị này sau khi thoát ra khỏi block if. Điều này sẽ không có gây vấn đề gì nhưng nếu trong trường hợp code của chúng ta lên đến hàng trăm, hàng nghìn dòng code, hoặc chúng ta cũng không biết được giá trị của biến liệu có bị thay đổi ở đoạn code nào sẽ dẫn đến việc debug là vô cùng khó khăn. Để giải quyết vấn đề trên thì ES6 cung cấp cho chúng ta thêm 2 cách khác để khai báo biến bao gồm `let` và const.
+Vì thỏa điều kiện if nên greeting khi này sẽ có giá trị là "say Hello instead" và sẽ vẫn giữ nguyên giá trị này sau khi thoát ra khỏi block if. Điều này sẽ không có gây vấn đề gì nhưng nếu trong trường hợp code của chúng ta lên đến hàng trăm, hàng nghìn dòng code, hoặc chúng ta cũng không biết được giá trị của biến liệu có bị thay đổi ở đoạn code nào sẽ dẫn đến việc debug là vô cùng khó khăn. Để giải quyết vấn đề trên thì ES6 cung cấp cho chúng ta thêm 2 cách khác để khai báo biến bao gồm `let` và `const`.
 
 ### 2.2. Biến let
 Một trong những nguyên nhân khiến `let` có thể thay thế `var` để xử lý vấn đề nêu trên là vì

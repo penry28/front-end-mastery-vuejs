@@ -35,14 +35,14 @@ ngôn ngữ lập trình có dễ học hay không.
 từ những gì mà các bạn học được.
 ```
 
-## 4.Ngồi xem lại các Project vừa làm
+## 5. Ngồi xem lại các Project vừa làm
 ```md
 - Nếu các bạn chỉ dừng lại ở bước làm theo như ở bên trên thì coi như các bạn chỉ dừng lại ở việc học thuộc cú pháp và làm theo người ta mà thôi.
 - Và nếu là như thế thì bạn sẽ không bao giờ có thể tiến bộ được bởi vì các bạn chưa biết cách biến code đó thành code của các bạn.
 - Chính vì vậy, sau khi làm xong các project rồi thì các bạn hãy ngồi lại và review chúng xem mình đã học được gì, tại sao người ta lại code như thế, mình có thể code hay hơn không, hoặc làm sao để thay đổi đi cho khác?
 ```
 
-## 5. Chịu khó đọc docs để hiểu sâu hơn, rộng hơn
+## 6. Chịu khó đọc docs để hiểu sâu hơn, rộng hơn
 ```md
 - Sau khi xem lại những gì mà bạn đã làm thì mình đảm bảo với các bạn là bạn vẫn chưa hiểu hết 100% đâu, mà muốn hiểu tường tận hơn buộc các bạn phải đọc tài liệu về em nó.
 - Bản chất của các bài hướng dẫn hay các video hướng dẫn là họ hướng đến việc các bạn làm theo và làm ra một cái gì đó có thể giống hoặc khác một chút so với người ta.
@@ -50,7 +50,7 @@ từ những gì mà các bạn học được.
 - Vì vậy, bước đọc tài liệu (là các tài liệu chi tiết của ngôn ngữ lập trình đó, thường là documments do chính đội ngũ phát triển viết) là bước RẤT QUAN TRỌNG nếu bạn muốn trả lời cho câu hỏi: tại sao người ta lại code như vậy trong mục #4.
 ```
 
-## 6. Phát triển hoặc tối ưu các Project đã làm
+## 7. Phát triển hoặc tối ưu các Project đã làm
 ```md
 - Sau khi làm theo và hiểu được người ta làm như thế nào rồi thì đã đến lúc các bạn nên tự làm một project nào đó.
 - Về mặt ý tưởng, tốt nhất vẫn nên là ý tưởng của riêng các bạn. Nhưng nếu bạn không có ý tưởng gì thì các bạn có thể tham khảo trên mạng.
