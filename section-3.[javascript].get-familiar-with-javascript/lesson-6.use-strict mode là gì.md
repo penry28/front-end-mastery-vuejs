@@ -116,15 +116,15 @@ delete Object.prototype; // hiển thị lỗi.
 ```
 
 - Không được sử dụng những từ khóa của Javascript làm tên biến, tên hàm, ...
-* implements
-* interface
-* let
-* package
-* private
-* protected
-* public
-* static
-* yield
+    * implements
+    * interface
+    * let
+    * package
+    * private
+    * protected
+    * public
+    * static
+    * yield
 ```bash
 "use strict";
 let public = 1500; // Hiển thị lỗi.
