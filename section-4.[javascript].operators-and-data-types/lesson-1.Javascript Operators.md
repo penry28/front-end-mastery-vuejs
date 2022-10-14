@@ -85,3 +85,47 @@ Javascript cung cấp những toán tử so sánh hai operands(toán hạng) và
 | <         | Trả về true nếu giá trị bên phải lơn hơn giá trị bên trái; nếu không, trả về false            |
 | >=        | Trả về true nếu trái trị bên trái lơn hơn hoặc bằng giá trị bên phải; nếu không trả về false  |
 | <=        | Trả về true nếu trái trị bên phải lơn hơn hoặc bằng giá trị bên trái; nếu không trả về false  |
+
+```bash
+var a = 5, b = 10, c = "5";
+var x = a;
+
+a == c; // returns true
+
+a === c; // returns false
+
+a == x; // returns true
+
+a != b; // returns true
+
+a > b; // returns false
+
+a < b; // returns true
+
+a >= b; // returns false
+
+a <= b; // returns true
+```
+
+## Toán tử Logic (Logical Operators)
+Trong Javascript, Logical Operators được dùng để kết hợp vs hai hoặc nhiều điều kiện lại với nhau.
+
+| #Operator | #Description                                                                                  |
+| :-------: | :-------------------------------------------------------------------------------------------- |
+| &&        | && được gọi là toán tử AND. Nó kiểm tra xem hai toán hạng có khác 0 hay không (0, false, undefined, null hoặc "" được coi là 0). Nó trả về 1 nếu chúng khác 0; nếu không, trả về 0.|
+| ||        ||| được gọi là toán tử OR. Nó kiểm tra xem bất kỳ một trong hai toán hạng có khác 0 hay không (0, false, undefined, null hoặc "" được coi là zero). Nó trả về 1 nếu bất kỳ một trong số chúng khác 0; nếu không, trả về 0.|
+| !         |! được gọi là toán tử NOT. Nó đảo ngược kết quả boolean của toán hạng (hoặc điều kiện). `!false` trả về `true` và `!true` trả về `false`|
+
+```bash
+var a = 5, b = 10;
+
+(a != b) && (a < b); // returns true
+
+(a > b) || (a == b); // returns false
+
+(a < b) || (a == b); // returns true
+
+!(a < b); // returns false
+
+!(a > b); // returns true
+```
