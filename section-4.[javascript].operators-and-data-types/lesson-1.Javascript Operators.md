@@ -54,3 +54,34 @@ x--; //post-decrement, x will be 7 here and 6 in the next line
 
 --x; //pre-decrement, x will be 5 here
 ```
+
+## Nối chuỗi (String Concatenation)
+Sử dụng toán tử `+` để nối chuỗi hoặc các ký tự lại với nhau.
+
+```bash
+var a = 5, b = "Hello ", c = "World!", d = 10;
+
+a + b; //returns "5Hello "
+
+b + c; //returns "Hello World!"
+
+a + d; //returns 15
+
+b + true; //returns "Hello true"
+
+c - b; //returns NaN; - operator can only used with numbers
+```
+
+## Toán tử so sánh (Comparison Operators)
+Javascript cung cấp những toán tử so sánh hai operands(toán hạng) và trả về giá trị `true` hoặc `false`.
+
+| #Operator | #Description                                                                                  |
+| :-------: | :-------------------------------------------------------------------------------------------- |
+| ==        | So sánh sự bằng nhau của 2 toán hạng nhưng không xem xét đến kiểu dữ liệu                     |
+| ===       | So sánh sự bằng nhau của 2 toán hạng và có xem xét đến kiểu dữ liệu                           |
+| !=        | So sánh sự khác nhau của 2 toán hạng nhưng không xem xét đến kiểu dữ liệu                     |
+| !==       | So sánh sự khác nhau của 2 toán hạng và có xem xét đến kiểu dữ liệu                           |
+| >         | Trả về true nếu giá trị bên trái lớn hơn giá trị bên phải; nếu không, trả về false            |
+| <         | Trả về true nếu giá trị bên phải lơn hơn giá trị bên trái; nếu không, trả về false            |
+| >=        | Trả về true nếu trái trị bên trái lơn hơn hoặc bằng giá trị bên phải; nếu không trả về false  |
+| <=        | Trả về true nếu trái trị bên phải lơn hơn hoặc bằng giá trị bên trái; nếu không trả về false  |
