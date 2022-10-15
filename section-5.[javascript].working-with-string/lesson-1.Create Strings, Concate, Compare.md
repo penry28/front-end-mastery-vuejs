@@ -101,7 +101,7 @@ Chuỗi JavaScript (Primitive hoặc String Object) bao gồm các properties(th
 
 ### 5.1. String Properties
 | #Property | #Description                                             |
-| :-------: | :------------------------------------------------------- |
+| :-------- | :------------------------------------------------------- |
 | length    | Trả về độ dài của chuỗi                                  |
 
 ### 5.2. String Methods
