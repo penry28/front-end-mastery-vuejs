@@ -106,7 +106,7 @@ Chuỗi JavaScript (Primitive hoặc String Object) bao gồm các properties(th
 
 ### 5.2. String Methods
 | #Method                              | #Description                                             |
-| :----------------------------------: | :------------------------------------------------------- |
+| :----------------------------------- | :------------------------------------------------------- |
 | charAt(position)                     | Trả về ký tự ở vị trí đã chỉ định (in Number).|
 | charCodeAt(position)                 | Trả về một số cho biết giá trị Unicode của ký tự tại vị trí đã cho (in Number).|
 | concat([string,,])                   | Nối các giá trị ký tự của chuỗi được chỉ định (chỉ định nhiều chuỗi được phân tách bằng dấu phẩy) và trả về một chuỗi mới.|
@@ -120,4 +120,3 @@ Chuỗi JavaScript (Primitive hoặc String Object) bao gồm các properties(th
 | toLowerCase()                        | Trả về giá trị chuỗi chữ thường.|
 | toString()                           | Trả về giá trị của đối tượng String.|
 | toUpperCase()                        | Trả về giá trị chuỗi chữ hoa.|
-
