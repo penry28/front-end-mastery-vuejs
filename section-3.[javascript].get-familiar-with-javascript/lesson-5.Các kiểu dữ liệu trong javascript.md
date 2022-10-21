@@ -37,7 +37,7 @@ Và đối với wrapper, có thể dùng method valueOf() để lấy ra nội 
 
 ```bash
 let x = new Number(10);
-let value = valueOf(x); # 10
+let value = x.valueOf(); # 10
 ```
 
 ### 1.2. Object types

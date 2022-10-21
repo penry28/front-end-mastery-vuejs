@@ -61,7 +61,7 @@ console.log(hello); // hello is not defined
 
 Chúng ta có thế thấy là đối với biến có scope là block scoped nếu ra khỏi scope được khai báo thì sẽ không thể sử dụng được nữa.
 
-`let` cho phép chúng ta cập nhật giá trị của biến chứ không cho phép chúng ta tái khái báo lại biến đó.
+`let` cho phép chúng ta cập nhật giá trị của biến chứ không cho phép chúng ta tái khai báo lại biến đó.
 
 ```bash
 let greeting = "say Hi";
