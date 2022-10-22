@@ -15,7 +15,7 @@ var num7 = 030; // octal
 var num8 = 0b0010001; // binary
 ```
 
-## 1. Integers
+## 1. Số nguyên
 - Giá trị số nguyên sẽ chính xác lên đến 15 chữ số trong JavaScript.
 - Các số nguyên có 16 chữ số trở đi sẽ được thay đổi và làm tròn lên hoặc xuống.
 
@@ -31,4 +31,11 @@ var int3 = 9999999999999998; //will be 9999999999999998
 
 //16 digit integer, last digit 9
 var int4 = 9999999999999999; //will be 10000000000000000
+```
+
+## 2. Số thực
+```bash
+var f1 = 1.22;
+
+var f2 = -1.12;
 ```
