@@ -22,7 +22,7 @@
  *  - Nếu a = 0 return 'Phương trình vô nghiệm'
  */
 
- function giaiPhuongTrinhBac1(a, b) {
+function giaiPhuongTrinhBac1(a, b) {
     return 10;
 }
 
@@ -74,3 +74,4 @@ function giaiPhuongTrinhBac2(a, b, c) {
  * Math.sqrt(4)
  * Math.pow(2, 6) 2^6
  */
+
