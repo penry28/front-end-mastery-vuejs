@@ -5,7 +5,7 @@ dựa trên giá trị trả về của một biểu thức xác định.
 
 Syntax:
 ```bash
-switch(expression or literal value){
+switch (expression or literal value) {
     case 1:
         //code to be executed
       break;
@@ -69,8 +69,7 @@ Example 3: Switch with String Type Case
 ```bash
 var str = "bill";
 
-switch (str)
-{
+switch (str) {
     case "steve":
         alert("This is Steve");
     case "bill":

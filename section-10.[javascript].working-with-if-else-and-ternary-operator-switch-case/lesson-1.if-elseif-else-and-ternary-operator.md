@@ -6,8 +6,7 @@ Sử dụng cầu lệnh điều kiện nếu bạn muốn thực thi điều g�
 Syntax:
 ```bash
 # condition expression: Biểu thức điều kiện.
-if (condition expression)
-{
+if (condition expression) {
     // Đoạn code được thực thi nếu biển thức điều kiện là đúng.
 }
 ```
@@ -28,8 +27,7 @@ Example 2:
 var variable_1 = 1000;
 var variable_2 = 500;
 
-if( mySal > yourSal)
-{
+if (variable_1 > variable_2) {
     alert("Variable 1 is greater than variable 2");
 }
 ```
@@ -37,11 +35,11 @@ if( mySal > yourSal)
 ## 2. Cẩu thận khi xử dụng biển thức so sánh == và ===.
 Xem xét biển thức bên dưới hãy cho biết kết quả và tại sao bạn là nghĩ như vậy.
 ```bash
-if(1 == "1") {
+if (1 == "1") {
     alert("== operator does not consider types of operands");
 }
 
-if(1 === "1") {
+if (1 === "1") {
     alert("=== operator considers types of operands");
 }
 ```
@@ -92,7 +90,7 @@ Example:
 var variable_1 = 500;
 var variable_2 = 1000;
 
-if(variable_1 > variable_2) {
+if (variable_1 > variable_2) {
     alert("Variable 1 is greater than variable 2");
 }
 else if (variable_1 === variable_2) {
