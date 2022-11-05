@@ -194,7 +194,9 @@ const isEven = evenNumbers.some(function(item) {
     } else {
         return false;
     }
-})
+});
+
+console.log(isEvent); // true
 ```
 
 ### toString()
