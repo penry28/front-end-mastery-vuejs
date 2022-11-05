@@ -3,6 +3,15 @@
 - Switch sẽ hữu ích khi bạn muốn thực thị một hoặc nhiều khối code (code blocks)
 dựa trên giá trị trả về của một biểu thức xác định.
 
+```md
+Tại sao có if-else rồi mà tạo switch-case để làm gì nữa
+- Những vẫn đề nào if-else làm được thì switch-case cũng làm được
+- Những vẫn đề nào switch-case làm được thì if-else cũng làm được
+- Điều qua trọng là gì
+--- Những vẫn đề nào if-else làm được thì switch-case sẽ làm tốt hơn, gọn hơn, nhanh hơn, nhìn vào dễ hiểu hơn.
+--- Những vẫn đề nào switch-case làm được thì if-else sẽ làm tốt hơn, gọn hơn, nhanh hơn, nhìn vào dễ hiểu hơn.
+```
+
 Syntax:
 ```bash
 switch (expression or literal value) {
