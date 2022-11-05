@@ -76,7 +76,7 @@ Sum(5);
 
 - Giá trị undefined sẽ được xác định là false khi xử dụng trong biển thức điều kiện (condition expression).
 
-*Example: undefined in Conditional Expression.
+Example: undefined in Conditional Expression.
 ```bash
 var myVar;
 
